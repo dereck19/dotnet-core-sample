@@ -1,4 +1,5 @@
-[![Build Status](https://dev.azure.com/L1088290910/MSDocumentationFirstPipeLine/_apis/build/status/MSDocumentationFirstPipeLine-CI)](https://dev.azure.com/L1088290910/MSDocumentationFirstPipeLine/_build/latest?definitionId=2)
+[![Build Status](https://dev.azure.com/dereck99/dotnet-core-sample/_apis/build/status/dereck19.dotnet-core-sample?branchName=master)](https://dev.azure.com/dereck99/dotnet-core-sample/_build/latest?definitionId=1&branchName=master)
+
 # Sample ASP.NET Core application for Azure Pipelines docs
 
 For information on how to use this repository, see [.NET Core](https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core).
