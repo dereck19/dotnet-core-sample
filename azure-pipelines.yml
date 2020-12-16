@@ -13,6 +13,16 @@ steps:
     dotnet test dotnetcore-tests --configuration $(buildConfiguration) --logger trx
     dotnet publish --configuration $(buildConfiguration) --output $BUILD_ARTIFACTSTAGINGDIRECTORY
 
+- task: UseDotNet@2
+  inputs:
+    version: '5.0.x'
+    includePreviewVersions: true # Required for preview versions
+
+- task: UseDotNet@2
+  inputs:
+    version: '3.0.x'
+    packageType: runtime
+
 - task: PublishTestResults@2
   inputs:
     testRunner: VSTest
